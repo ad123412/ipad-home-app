@@ -8,7 +8,10 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
+        "images",
+        "pdfs",
         "assets",
+        "videos",
         "favicon.ico"
       ],
       "index": "index.html",
@@ -19,6 +22,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "styles.css"
       ],
       "scripts": [],
